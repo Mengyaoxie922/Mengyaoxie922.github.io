@@ -3,9 +3,10 @@ layout: compress
 ---
 
 {% include base_path %}
+{% include language.html %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ language_ui.html_lang }}" class="no-js{% if page.resume_home %} resume-home{% endif %}">
   <head>
     {% include head.html %}
     {% include head/custom.html %}

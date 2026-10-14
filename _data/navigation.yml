@@ -1,13 +1,17 @@
 # main links links
 main:
   - title: "Publications"
+    title_zh: "论文"
     url: /publications/
 
   - title: "Talks"
+    title_zh: "报告"
     url: /talks/    
 
   - title: "Teaching"
+    title_zh: "教学"
     url: /teaching/    
     
   - title: "CV"
+    title_zh: "简历"
     url: /cv/

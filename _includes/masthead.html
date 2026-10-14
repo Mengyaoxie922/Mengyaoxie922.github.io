@@ -1,23 +1,30 @@
 {% include base_path %}
+{% include language.html %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="{{ language_ui.navigation }}">
+        <button aria-label="{{ language_ui.menu }}"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ language_ui.home | relative_url }}">{{ language_ui.site_title }}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}" hreflang="en"{% if page_language == 'zh' %} title="该栏目为英文页面"{% endif %}>{% if page_language == 'zh' %}{{ link.title_zh | default: link.title }}{% else %}{{ link.title }}{% endif %}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    {% if page.language_urls %}
+      <nav class="language-switcher" aria-label="{{ language_ui.language_switcher }}">
+        <a href="{{ page.language_urls.en | relative_url }}" lang="en" hreflang="en"{% if page_language == 'en' %} aria-current="page"{% endif %}>English</a>
+        <a href="{{ page.language_urls.zh | relative_url }}" lang="zh-CN" hreflang="zh-CN"{% if page_language == 'zh' %} aria-current="page"{% endif %}>中文</a>
+      </nav>
+    {% endif %}
   </div>
 </div>

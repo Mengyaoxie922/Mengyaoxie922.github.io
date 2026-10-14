@@ -1,0 +1,57 @@
+{% include language.html %}
+{% assign resume = site.data.resume %}
+
+<p>{{ resume.introduction[page_language] | escape }}</p>
+
+<section class="resume-section" aria-labelledby="publications">
+  <h2 id="publications">{{ language_ui.publications }}</h2>
+  <ul class="resume-publications">
+    {% for publication in resume.publications %}
+      <li>
+        <span lang="en">{{ publication.title | escape }}</span><br>
+        {{ publication.authors | replace: "co-first", language_ui.co_first | markdownify | remove: '<p>' | remove: '</p>' }}<br>
+        <span lang="en">{{ publication.citation | escape }}</span>
+        {% if publication.distinction[page_language] != empty %}<strong>({{ publication.distinction[page_language] | escape }})</strong>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+{% comment %}
+Patents are temporarily hidden; keep the section and data for later use.
+<section class="resume-section" aria-labelledby="patents">
+  <h2 id="patents">{{ language_ui.patents }}</h2>
+  <ul>
+    {% for patent in resume.patents %}
+      <li>{{ patent.inventors[page_language] | markdownify | remove: '<p>' | remove: '</p>' | strip }}{{ language_ui.sentence_separator }}{{ patent.title[page_language] | escape }}{{ language_ui.sentence_separator }}{{ patent.details[page_language] | escape }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endcomment %}
+
+<section class="resume-section" aria-labelledby="awards">
+  <h2 id="awards">{{ language_ui.awards }}</h2>
+  <ul>
+    {% for award in resume.awards %}
+      <li><strong>{{ award.title[page_language] | escape }}</strong>{{ language_ui.separator }}{{ award.year }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="resume-section" aria-labelledby="funding-and-grants">
+  <h2 id="funding-and-grants">{{ language_ui.projects }}</h2>
+  <ul>
+    {% for project in resume.projects %}
+      <li>{{ project.title[page_language] | escape }}{% if project.program %}{{ language_ui.separator }}{{ project.program[page_language] | escape }}{% endif %}{{ language_ui.separator }}{{ project.role[page_language] | escape }}{{ language_ui.separator }}{{ project.amount[page_language] }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="resume-section" aria-labelledby="academic-services">
+  <h2 id="academic-services">{{ language_ui.service }}</h2>
+  <ul>
+    {% for service in resume.service %}
+      <li>{{ service.organization[page_language] | escape }}{{ language_ui.separator }}{{ service.role[page_language] | escape }}{{ language_ui.separator }}{{ service.year }}</li>
+    {% endfor %}
+  </ul>
+</section>

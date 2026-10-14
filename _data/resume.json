@@ -1,0 +1,329 @@
+{
+  "introduction": {
+    "en": "I am an Associate Professor at the Institute of Computing Technology, Chinese Academy of Sciences. My research focuses on dynamic compilation and system security, including cross-instruction-set virtualization and system defense.",
+    "zh": "我现任中国科学院计算技术研究所副研究员。我的研究方向为动态编译与系统安全，包括跨指令集虚拟化、系统防御等。"
+  },
+  "publications": [
+    {
+      "title": "Fuzzing JavaScript JIT Compilers With Optimization Path Feedback",
+      "authors": "Jiming Wang, Chenggang Wu, Yan Kang, Yuhao Hu, Yue Sun, Jikai Ren, Yuanming Lai*, **Mengyao Xie**, Chao Zhang, Tao Li and Zhe Wang.",
+      "citation": "In IEEE Transactions on Dependable and Secure Computing (TDSC 2026).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "Large Processor Chip Model",
+      "authors": "Kaiyan Chang, Mingzhi Chen, Yunji Chen\\*, Zhirong Chen, Dongrui Fan, Junfeng Gong, Nan Guo, Yinhe Han, Qinfen Hao, Shuo Hou, Xuan Huang, Pengwei Jin, Changxin Ke, Cangyuan Li, Guangli Li, Huawei Li, Kuan Li, Naipeng Li, Shengwen Liang, Cheng Liu, Hongwei Liu, Jiahua Liu, Junliang Lv, Jianan Mu, Jin Qin, Bin Sun, Chenxi Wang, Duo Wang, Mingjun Wang, Ying Wang\\*, Chenggang Wu, Peiyang Wu, Teng Wu, Xiao Xiao, **Mengyao Xie**, Chenwei Xiong, Ruiyuan Xu, Mingyu Yan, Xiaochun Ye, Kuai Yu, Rui Zhang, Shuoming Zhang and Jiacheng Zhao.",
+      "citation": "In Science China Information Sciences (SCIS 2026).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "Optimizing Cross-Architecture Programming Model Adaptation in SIMD-to-RVV Dynamic Binary Translation",
+      "authors": "Yuanming Lai, Yalong Li, Hanzhi Hu, **Mengyao Xie**, Zhe Wang* and Chenggang Wu.",
+      "citation": "In Journal of Computer Research and Development, 62(6): 1469–1491, 2025 (in Chinese).",
+      "distinction": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "title": "Shining Light on the Inter-procedural Code Obfuscation: Keep Pace with Progress in Binary Diffing",
+      "authors": "Peihua Zhang, Chenggang Wu, Hanzhi Hu, Lichen Jia, Mingfan Peng, Jiali Xu, **Mengyao Xie**, Yuanming Lai, Yan Kang and Zhe Wang*.",
+      "citation": "In ACM Transactions on Architecture and Code Optimization (TACO 2025).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "BCFuzz: Bytecode-Driven Fuzzing for JavaScript Engines",
+      "authors": "Jiming Wang, Chenggang Wu, Jikai Ren, Yuhao Hu, Yan Kang, Xiaojie Wei, Yuanming Lai, **Mengyao Xie** and Zhe Wang.",
+      "citation": "In Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "Tide: An Efficient Kernel-level Isolation Execution Environment on AArch64 via Dynamically Adjusting Output Address Size",
+      "authors": "Shiyang Zhang, Chenggang Wu, Chengxuan Hou, Jinglin Lv, Yinqian Zhang, Qianyu Guo, Yuanming Lai, **Mengyao Xie**, Yan Kang and Zhe Wang*.",
+      "citation": "In Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS 2025).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "SyzParam: Incorporating Runtime Parameters into Kernel Driver Fuzzing",
+      "authors": "Yue Sun, Yan Kang, Chenggang Wu*, Kangjie Lu, Jiming Wang, Xingwei Li, Yuhao Hu, Jikai Ren, Yuanming Lai, **Mengyao Xie** and Zhe Wang.",
+      "citation": "In Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS 2025).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "INS: Identifying and Mitigating Performance Interference in Clouds via Interference-Sensitive Paths",
+      "authors": "Ziwei Huang, **Mengyao Xie**, Shibo Tang, Zihao Chang, Zhicheng Yao, Yungang Bao and Sa Wang*.",
+      "citation": "In ACM Symposium on Cloud Computing (SoCC 2024).",
+      "distinction": {
+        "en": "CCF-B",
+        "zh": "CCF-B"
+      }
+    },
+    {
+      "title": "HIVE: A Hardware-assisted Isolated Execution Environment for eBPF on AArch64",
+      "authors": "Peihua Zhang, Chenggang Wu, Xiangyu Meng, Yinqian Zhang, Mingfan Peng, Shiyang Zhang, Bing Hu, **Mengyao Xie**, Yuanming Lai, Yan Kang and Zhe Wang*.",
+      "citation": "In Proceedings of the 33rd USENIX Security Symposium, 2024.",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "OptFuzz: Optimization Path Guided Fuzzing for JavaScript JIT Compilers",
+      "authors": "Jiming Wang, Yan Kang, Chenggang Wu*, Yuhao Hu, Yue Sun, Jikai Ren, Yuanming Lai, **Mengyao Xie**, Charles Zhang, Tao Li and Zhe Wang.",
+      "citation": "In Proceedings of the 33rd USENIX Security Symposium, 2024.",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "PANIC: PAN-assisted Intra-process Memory Isolation on ARM",
+      "authors": "Jiali Xu, **Mengyao Xie (co-first)**, Chenggang Wu, Yinqian Zhang, Qijing Li, Xuan Huang, Yuanming Lai, Yan Kang, Wei Wang, Qiang Wei and Zhe Wang*.",
+      "citation": "In Proceedings of the 30th ACM Conference on Computer and Communications Security (CCS 2023).",
+      "distinction": {
+        "en": "CCF-A, Distinguished Paper Award",
+        "zh": "CCF-A, 杰出论文奖"
+      }
+    },
+    {
+      "title": "SpecWands: An Efficient Priority-based Scheduler Against Speculation Contention Attacks",
+      "authors": "Bowen Tang, Chenggang Wu, Pen-Chung Yew, Yinqian Zhang, **Mengyao Xie**, Yuanming Lai, Yan Kang, Wei Wang, Qiang Wei, and Zhe Wang*.",
+      "citation": "In IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD 2023).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "CETIS: Retrofitting Intel CET for Generic and Efficient Intra-process Memory Isolation",
+      "authors": "**Mengyao Xie**, Chenggang Wu, Yinqian Zhang, Jiali Xu, Yuanming Lai, Yan Kang, Wei Wang and Zhe Wang*.",
+      "citation": "In Proceedings of the 29th ACM Conference on Computer and Communications Security (CCS 2022).",
+      "distinction": {
+        "en": "CCF-A, Best Paper Honorable Mention",
+        "zh": "CCF-A, 最佳论文荣誉提名"
+      }
+    },
+    {
+      "title": "Dancing with Wolves: An Intra-process Isolation with Privileged Hardware",
+      "authors": "Chenggang Wu, **Mengyao Xie**, Zhe Wang*, Yinqian Zhang, Kangjie Lu, Xiaofeng Zhang, Yuanming Lai, Yan Kang, Min Yang, and Tao Li.",
+      "citation": "In IEEE Transactions on Dependable and Secure Computing (TDSC 2022).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "Making Information Hiding Effective Again",
+      "authors": "Zhe Wang, Chenggang Wu*, Yinqian Zhang, Bowen Tang, Pen-Chung Yew, **Mengyao Xie**, Yuanming Lai, Yan Kang, Yueqiang Cheng, and Zhiping Shi.",
+      "citation": "In IEEE Transactions on Dependable and Secure Computing (TDSC 2021).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "SEIMI: Efficient and secure smap-enabled intra-process memory isolation",
+      "authors": "Zhe Wang, Chenggang Wu*, **Mengyao Xie**, Yinqian Zhang, Kangjie Lu, Xiaofeng Zhang, Yuanming Lai, Yan Kang, and Min Yang.",
+      "citation": "In 2020 IEEE Symposium on Security and Privacy (S&P 2020).",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "SafeHidden: An Efficient and Secure Information Hiding Technique Using Rerandomization",
+      "authors": "Zhe Wang, Chenggang Wu*, Yinqian Zhang, Bowen Tang, Pen-Chung Yew, **Mengyao Xie**, Yuanming Lai, Yan Kang, Yueqiang Cheng and Zhiping Shi.",
+      "citation": "In Proceedings of the 28th USENIX Security Symposium, 2019.",
+      "distinction": {
+        "en": "CCF-A",
+        "zh": "CCF-A"
+      }
+    },
+    {
+      "title": "SysMon: Monitoring Memory Behaviors via OS Approach",
+      "authors": "**Mengyao Xie**, Lei Liu*, Hao Yang, Chenggang Wu, and Hongna Geng.",
+      "citation": "In International Symposium on Advanced Parallel Processing Technologies (APPT 2017).",
+      "distinction": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "title": "Memos: A Full Hierarchy Hybrid Memory Management Framework",
+      "authors": "Lei Liu*, Hao Yang, Yong Li, **Mengyao Xie**, Lian Li and Chenggang Wu.",
+      "citation": "In Proceedings of the 34th IEEE International Conference on Computer Design (ICCD 2016).",
+      "distinction": {
+        "en": "CCF-B",
+        "zh": "CCF-B"
+      }
+    }
+  ],
+  "patents": [
+    {
+      "inventors": {
+        "en": "Zhe Wang, Chenggang Wu, **Mengyao Xie**",
+        "zh": "王喆，武成岗，**谢梦瑶**"
+      },
+      "title": {
+        "en": "A CET-Based Method for Protecting General-Purpose Memory Integrity",
+        "zh": "一种基于CET机制的保护通用内存完整性的方法"
+      },
+      "details": {
+        "en": "International patent application; application no. PCT/CN2022/126374.",
+        "zh": "国际专利申请，申请号：PCT/CN2022/126374。"
+      }
+    },
+    {
+      "inventors": {
+        "en": "Zhe Wang, Chenggang Wu, **Mengyao Xie**, Xiaofeng Zhang, Yuanming Lai, Yan Kang",
+        "zh": "王喆，武成岗，**谢梦瑶**，张晓峰，赖远明，康妍"
+      },
+      "title": {
+        "en": "Method and Electronic Device for Accessing Privileged Hardware Resources for Applications",
+        "zh": "面向应用程序的特权硬件资源访问方法及电子设备"
+      },
+      "details": {
+        "en": "Chinese patent CN111737656B; granted October 27, 2023.",
+        "zh": "中国专利，CN111737656B，2023年10月27日已授权。"
+      }
+    }
+  ],
+  "awards": [
+    {
+      "year": 2024,
+      "title": {
+        "en": "Nominee, CCF Computer Architecture Doctoral Dissertation Incentive Program",
+        "zh": "CCF体系结构博士学位论文激励计划提名"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": {
+        "en": "High-Performance Binary Translation Software through Hardware–Software Co-design",
+        "zh": "软硬件协同的高性能二进制翻译软件"
+      },
+      "role": {
+        "en": "Subproject Lead",
+        "zh": "子课题负责人"
+      },
+      "amount": {
+        "en": "12.13 million",
+        "zh": "1213万"
+      }
+    },
+    {
+      "title": {
+        "en": "Research and Development of Hardware–Software Co-designed Binary Translation for RISC-V and Other Instruction Sets",
+        "zh": "RISC-V等指令集软硬协同二进制翻译技术研发"
+      },
+      "role": {
+        "en": "Core Project Team Member",
+        "zh": "课题骨干"
+      },
+      "amount": {
+        "en": "65 million",
+        "zh": "6500万"
+      }
+    },
+    {
+      "title": {
+        "en": "Collaborative Project on the Performance and Security of Kernel-Mode Applications",
+        "zh": "内核态app的性能与安全合作项目"
+      },
+      "role": {
+        "en": "Core Project Team Member",
+        "zh": "课题骨干"
+      },
+      "amount": {
+        "en": "1.854 million",
+        "zh": "185.4万"
+      }
+    },
+    {
+      "title": {
+        "en": "Vulnerability PoC-Driven Dual-Loop Fuzzing Research",
+        "zh": "漏洞PoC驱动的双回路模糊测试技术研究"
+      },
+      "role": {
+        "en": "Core Project Team Member",
+        "zh": "课题骨干"
+      },
+      "amount": {
+        "en": "0.55 million",
+        "zh": "55万"
+      }
+    },
+    {
+      "title": {
+        "en": "Automated Functional Verification and Tape-Out",
+        "zh": "自动功能验证及流片"
+      },
+      "program": {
+        "en": "Basic and Interdisciplinary Frontier Research (Category B)",
+        "zh": "基础与交叉前沿科研（B）"
+      },
+      "role": {
+        "en": "Core Project Team Member",
+        "zh": "课题骨干"
+      },
+      "amount": {
+        "en": "16.2615 million",
+        "zh": "1626.15万"
+      }
+    }
+  ],
+  "service": [
+    {
+      "year": 2024,
+      "organization": {
+        "en": "CCF Technical Committee on Computer Architecture",
+        "zh": "CCF体系结构专业委员会"
+      },
+      "role": {
+        "en": "Executive Committee Member",
+        "zh": "执行委员"
+      }
+    },
+    {
+      "year": 2024,
+      "organization": {
+        "en": "CCF National Annual Conference on High Performance Computing",
+        "zh": "CCF全国高性能计算学术年会"
+      },
+      "role": {
+        "en": "Program Committee Member",
+        "zh": "程序委员会委员"
+      }
+    },
+    {
+      "year": 2024,
+      "organization": {
+        "en": "CCF Technical Committee on System Software",
+        "zh": "CCF系统软件专业委员会"
+      },
+      "role": {
+        "en": "Corresponding Executive Committee Member",
+        "zh": "通信执行委员"
+      }
+    }
+  ]
+}

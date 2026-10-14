@@ -18,6 +18,15 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+/* Keep the homepage's headings, navigation and sidebar proportional to its text. */
+html.resume-home {
+  font-size: 12px;
+
+  @include breakpoint($medium) {
+    font-size: 14px;
+  }
+}
+
 /* Remove margin */
 
 body { margin: 0; }

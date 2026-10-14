@@ -1,0 +1,83 @@
+{
+  "checked_on": "2026-09-29",
+  "scope": "Include verified formally published or accepted papers in the homepage publication list. Preserve existing entry text. This file is a maintenance record and is not rendered on the website.",
+  "display_preferences": {
+    "order": "Sort by the year in the displayed citation, newest first; within each year, sort by Mengyao Xie's position in the author list, earliest first. Preserve existing relative order when both values match.",
+    "preprints": "Do not display preprint-only records or duplicate preprint versions of published papers.",
+    "excluded_by_user": [
+      {
+        "title": "大数据负载的体系结构特征分析 (Analysis of Architecture Characteristics of Big Data Workloads)",
+        "year": 2015,
+        "reason": "The user confirmed authorship but explicitly requested that this paper not be displayed."
+      }
+    ]
+  },
+  "added_publications": [
+    {
+      "title": "Fuzzing JavaScript JIT Compilers With Optimization Path Feedback",
+      "doi": "10.1109/TDSC.2026.3691462",
+      "sources": [
+        "https://api.crossref.org/works/10.1109/TDSC.2026.3691462",
+        "https://netsec.ccert.edu.cn/chs/people/chaoz/"
+      ],
+      "notes": "Publisher-deposited metadata confirms TDSC 23(4), July 2026, pages 9178–9195, and all 11 authors. Coauthor Chao Zhang's university homepage identifies Yuanming Lai as corresponding author. This is a separate journal publication from the existing OptFuzz conference paper."
+    },
+    {
+      "title": "Large Processor Chip Model",
+      "doi": "10.1007/s11432-025-4739-1",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s11432-025-4739-1",
+        "https://www.ccf.org.cn/Academic_Evaluation/Cross_Compre_Emerging/zgjsjxhtjgjxskw/al/2023-03-09/787290.shtml"
+      ],
+      "notes": "Use the formal Science China Information Sciences publication dated April 9, 2026, volume 69, article 153401, rather than the 2025 arXiv version. Springer lists 43 authors in alphabetical order with equal contributions, and Yunji Chen and Ying Wang as corresponding authors."
+    },
+    {
+      "title": "BCFuzz: Bytecode-Driven Fuzzing for JavaScript Engines",
+      "doi": "10.1109/ASE63991.2025.00096",
+      "sources": [
+        "https://conf.researchr.org/details/ase-2025/ase-2025-papers/43/BCFuzz-Bytecode-Driven-Fuzzing-for-JavaScript-Engines",
+        "https://www.ccf.org.cn/c/2017-03-15/587312.shtml"
+      ],
+      "notes": "Use all nine authors in the official ASE 2025 program, including Jikai Ren in third position. The program does not identify a corresponding author, so no unverified asterisk is added."
+    },
+    {
+      "title": "Tide: An Efficient Kernel-level Isolation Execution Environment on AArch64 via Dynamically Adjusting Output Address Size",
+      "doi": "10.1145/3719027.3765111",
+      "sources": ["https://zhexwang.github.io/papers/tide.pdf"],
+      "notes": "The paper's ACM reference and first page confirm the complete author list, CCS 2025, and Zhe Wang as corresponding author."
+    },
+    {
+      "title": "SyzParam: Incorporating Runtime Parameters into Kernel Driver Fuzzing",
+      "doi": "10.1145/3719027.3744838",
+      "sources": ["https://zhexwang.github.io/papers/syzparam.pdf"],
+      "notes": "The final CCS 2025 paper uses Incorporating, rather than Introducing in the arXiv title, and marks Chenggang Wu as corresponding author."
+    },
+    {
+      "title": "Optimizing Cross-Architecture Programming Model Adaptation in SIMD-to-RVV Dynamic Binary Translation",
+      "original_title": "SIMD-to-RVV动态二进制翻译中的跨架构编程模型适配优化",
+      "doi": "10.7544/issn1000-1239.202550135",
+      "sources": ["https://crad.ict.ac.cn/cn/article/pdf/preview/10.7544/issn1000-1239.202550135.pdf"],
+      "notes": "The publisher PDF confirms the official English title, six authors, 62(6):1469–1491 (2025), and corresponding author Zhe Wang. The displayed title uses the official English title without the extra SIMD-RVV prefix used on a coauthor's homepage."
+    },
+    {
+      "title": "Shining Light on the Inter-procedural Code Obfuscation: Keep Pace with Progress in Binary Diffing",
+      "doi": "10.1145/3701992",
+      "sources": [
+        "https://api.crossref.org/works/10.1145/3701992",
+        "https://patrickphzhang.github.io/files/taco.pdf",
+        "https://people.ucas.ac.cn/~xiemengyao"
+      ],
+      "notes": "Use the publisher-deposited formal publication date March 19, 2025, TACO 22(1), rather than the 2024 date on the accepted author manuscript and university profile. The manuscript identifies Zhe Wang as corresponding author."
+    },
+    {
+      "title": "Memos: A Full Hierarchy Hybrid Memory Management Framework",
+      "doi": "10.1109/ICCD.2016.7753305",
+      "sources": [
+        "https://liulei-sys-inventor.github.io/files/ICCD_8.pdf",
+        "https://liulei-sys-inventor.github.io/",
+        "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/zgjsjxhtjgjxshy/bl/2017-03-13/586393.shtml"
+      ],
+      "notes": "Use the six-author ICCD 2016 position paper rather than the three-author 2017 arXiv manuscript. Lei Liu's homepage marks him as corresponding author."
+    }
+  ]
+}

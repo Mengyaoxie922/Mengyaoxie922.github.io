@@ -16,6 +16,10 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -32,6 +36,8 @@
 }
 
 .masthead__menu {
+  flex: 1 1 20rem;
+  min-width: 0;
 
   ul {
     margin: 0;
@@ -40,6 +46,34 @@
     list-style-type: none;
   }
 }
+
+.language-switcher {
+  display: flex;
+  flex: 0 0 auto;
+  margin-left: auto;
+  padding: 0.15rem;
+  border: 1px solid $border-color;
+  border-radius: 0.4rem;
+  font-size: 0.75rem;
+
+  a {
+    display: block;
+    padding: 0.4rem 0.65rem;
+    color: $text-color;
+    border-radius: 0.25rem;
+
+    &:hover { background: $lighter-gray; }
+    &:focus-visible { outline: 2px solid #265c73; outline-offset: 2px; }
+    &[aria-current="page"] { color: #fff; background: #34495e; }
+  }
+}
+
+.resume-section {
+  scroll-margin-top: 1rem;
+  li { margin-bottom: 0.75em; }
+}
+
+.resume-publications li { margin-bottom: 1.1em; }
 
 .masthead__menu-item {
   display: block;

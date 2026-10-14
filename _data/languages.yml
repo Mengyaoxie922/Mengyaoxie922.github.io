@@ -1,0 +1,56 @@
+en:
+  locale: en-US
+  html_lang: en
+  home: /
+  site_title: Mengyao Xie
+  name: Mengyao Xie
+  bio: Associate Professor at the Institute of Computing Technology, Chinese Academy of Sciences
+  location: Beijing, China
+  navigation: Main navigation
+  menu: Toggle navigation
+  language_switcher: Language
+  follow: Follow
+  feed: Feed
+  sitemap: Sitemap
+  website: Website
+  email: Email
+  publications: Publications
+  patents: Patents
+  awards: Awards
+  projects: Funding and Grants
+  service: Academic Services
+  co_first: co-first
+  separator: ", "
+  sentence_separator: ". "
+  powered_by: Powered by
+  and: "&"
+  theme_origin: ", a fork of "
+  sentence_end: "."
+zh:
+  locale: zh-CN
+  html_lang: zh-CN
+  home: /zh/
+  site_title: 谢梦瑶
+  name: 谢梦瑶
+  bio: 中国科学院计算技术研究所副研究员
+  location: 中国，北京
+  navigation: 主导航
+  menu: 展开导航
+  language_switcher: 显示语言
+  follow: 关注
+  feed: 订阅
+  sitemap: 网站地图（英文）
+  website: 个人网站
+  email: 邮箱
+  publications: 论文
+  patents: 专利
+  awards: 获奖与荣誉
+  projects: 科研项目
+  service: 学术服务
+  co_first: 共同第一作者
+  separator: "，"
+  sentence_separator: "。"
+  powered_by: 由
+  and: 与
+  theme_origin: " 提供支持，主题源自 "
+  sentence_end: "。"
