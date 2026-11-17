@@ -165,15 +165,6 @@
         "en": "",
         "zh": ""
       }
-    },
-    {
-      "title": "Memos: A Full Hierarchy Hybrid Memory Management Framework",
-      "authors": "Lei Liu*, Hao Yang, Yong Li, **Mengyao Xie**, Lian Li and Chenggang Wu.",
-      "citation": "In Proceedings of the 34th IEEE International Conference on Computer Design (ICCD 2016).",
-      "distinction": {
-        "en": "CCF-B",
-        "zh": "CCF-B"
-      }
     }
   ],
   "patents": [
