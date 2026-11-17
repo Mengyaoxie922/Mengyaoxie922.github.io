@@ -284,6 +284,50 @@
   ],
   "service": [
     {
+      "year": 2026,
+      "organization": {
+        "en": "NPC",
+        "zh": "NPC"
+      },
+      "role": {
+        "en": "Reviewer",
+        "zh": "审稿人"
+      }
+    },
+    {
+      "year": 2026,
+      "organization": {
+        "en": "TDSC",
+        "zh": "TDSC"
+      },
+      "role": {
+        "en": "Reviewer",
+        "zh": "审稿人"
+      }
+    },
+    {
+      "year": "2026 / 2024",
+      "organization": {
+        "en": "HPCChina",
+        "zh": "HPCChina"
+      },
+      "role": {
+        "en": "Reviewer",
+        "zh": "审稿人"
+      }
+    },
+    {
+      "year": 2025,
+      "organization": {
+        "en": "TIFS",
+        "zh": "TIFS"
+      },
+      "role": {
+        "en": "Reviewer",
+        "zh": "审稿人"
+      }
+    },
+    {
       "year": 2024,
       "organization": {
         "en": "CCF Technical Committee on Computer Architecture",
