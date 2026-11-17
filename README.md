@@ -36,6 +36,7 @@ See more info at https://academicpages.github.io/
 
 默认首页 `/` 为英文，中文版为 `/zh/`。点击页眉中的 **English / 中文** 切换；各版本可通过对应网址直接访问和分享，刷新后仍保持当前网址的语言。
 本次双语范围为个人主页、页眉、侧栏和页脚；独立的 Publications、CV、Talks、Teaching 等栏目仍保留原有内容。
+顶部 Publications、Talks、Teaching、CV 导航入口已暂时隐藏；恢复时将 `_data/navigation.yml` 中的 `main: []` 改为 `main:`，并取消下方条目的注释。
 论文题名、作者及正式文献信息保留原文，其他简历内容在 `en` / `zh` 字段中分别维护。
 论文列表按文献信息中的年份倒序排列，同年按谢梦瑶的实际署名顺序从前到后排列；年份与署名顺序均相同时保留原相对顺序。调整排序不改动论文条目文字。
 专利展示已在 `_includes/resume.html` 中使用 Liquid 注释暂时关闭，数据仍保留在 `_data/resume.json`；恢复时移除该段的注释标记即可。
