@@ -42,6 +42,7 @@ See more info at https://academicpages.github.io/
 专利展示已在 `_includes/resume.html` 中使用 Liquid 注释暂时关闭，数据仍保留在 `_data/resume.json`；恢复时移除该段的注释标记即可。
 双语首页的基础字号为桌面端 14px、窄屏 12px，在 `_sass/_reset.scss` 的 `html.resume-home` 中维护。
 项目金额保留原文数值及其数量级，原资料未注明币种，因此没有补充币种。
+学术服务按程序委员会、期刊审稿人和学术任职分类，使用会议或期刊完整名称；`service` 条目的 `group` 分别为 `program_committee`、`journal_reviewer`、`professional_service`。身份与年份的核对依据记录在 `_data/service_sources.json`，该记录不显示在主页上。
 
 | 内容 | 文件位置 |
 | --- | --- |

@@ -19,6 +19,10 @@ en:
   awards: Awards
   projects: Funding and Grants
   service: Academic Services
+  service_groups:
+    program_committee: Program Committee
+    journal_reviewer: Journal Reviewer
+    professional_service: Professional Service
   co_first: co-first
   separator: ", "
   sentence_separator: ". "
@@ -47,6 +51,10 @@ zh:
   awards: 获奖与荣誉
   projects: 科研项目
   service: 学术服务
+  service_groups:
+    program_committee: 程序委员会委员
+    journal_reviewer: 期刊审稿人
+    professional_service: 学术任职
   co_first: 共同第一作者
   separator: "，"
   sentence_separator: "。"

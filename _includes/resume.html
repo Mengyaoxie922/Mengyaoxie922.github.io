@@ -49,9 +49,16 @@ Patents are temporarily hidden; keep the section and data for later use.
 
 <section class="resume-section" aria-labelledby="academic-services">
   <h2 id="academic-services">{{ language_ui.service }}</h2>
-  <ul>
-    {% for service in resume.service %}
-      <li>{{ service.organization[page_language] | escape }}{{ language_ui.separator }}{{ service.role[page_language] | escape }}{{ language_ui.separator }}{{ service.year }}</li>
-    {% endfor %}
-  </ul>
+  {% assign service_groups = "program_committee,journal_reviewer,professional_service" | split: "," %}
+  {% for group in service_groups %}
+    {% assign services = resume.service | where: "group", group %}
+    {% if services.size > 0 %}
+      <h3>{{ language_ui.service_groups[group] }}</h3>
+      <ul>
+        {% for service in services %}
+          <li>{{ service.organization[page_language] | escape }}{% if group == "professional_service" %}{{ language_ui.separator }}{{ service.role[page_language] | escape }}{% endif %}{{ language_ui.separator }}{{ service.year | escape }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
 </section>

@@ -284,50 +284,55 @@
   ],
   "service": [
     {
+      "group": "program_committee",
       "year": 2026,
       "organization": {
-        "en": "NPC",
-        "zh": "NPC"
+        "en": "IFIP International Conference on Network and Parallel Computing",
+        "zh": "网络与并行计算国际会议"
       },
       "role": {
-        "en": "Reviewer",
-        "zh": "审稿人"
+        "en": "Program Committee Member",
+        "zh": "程序委员会委员"
       }
     },
     {
+      "group": "journal_reviewer",
       "year": 2026,
       "organization": {
-        "en": "TDSC",
-        "zh": "TDSC"
+        "en": "IEEE Transactions on Dependable and Secure Computing",
+        "zh": "IEEE Transactions on Dependable and Secure Computing"
       },
       "role": {
-        "en": "Reviewer",
-        "zh": "审稿人"
+        "en": "Journal Reviewer",
+        "zh": "期刊审稿人"
       }
     },
     {
-      "year": "2026 / 2024",
+      "group": "program_committee",
+      "year": "2026, 2024",
       "organization": {
-        "en": "HPCChina",
-        "zh": "HPCChina"
+        "en": "CCF National Annual Conference on High Performance Computing",
+        "zh": "中国计算机学会全国高性能计算学术大会"
       },
       "role": {
-        "en": "Reviewer",
-        "zh": "审稿人"
+        "en": "Program Committee Member",
+        "zh": "程序委员会委员"
       }
     },
     {
+      "group": "journal_reviewer",
       "year": 2025,
       "organization": {
-        "en": "TIFS",
-        "zh": "TIFS"
+        "en": "IEEE Transactions on Information Forensics and Security",
+        "zh": "IEEE Transactions on Information Forensics and Security"
       },
       "role": {
-        "en": "Reviewer",
-        "zh": "审稿人"
+        "en": "Journal Reviewer",
+        "zh": "期刊审稿人"
       }
     },
     {
+      "group": "professional_service",
       "year": 2024,
       "organization": {
         "en": "CCF Technical Committee on Computer Architecture",
@@ -339,17 +344,7 @@
       }
     },
     {
-      "year": 2024,
-      "organization": {
-        "en": "CCF National Annual Conference on High Performance Computing",
-        "zh": "CCF全国高性能计算学术年会"
-      },
-      "role": {
-        "en": "Program Committee Member",
-        "zh": "程序委员会委员"
-      }
-    },
-    {
+      "group": "professional_service",
       "year": 2024,
       "organization": {
         "en": "CCF Technical Committee on System Software",
