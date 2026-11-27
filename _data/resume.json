@@ -287,8 +287,8 @@
       "group": "program_committee",
       "year": 2026,
       "organization": {
-        "en": "IFIP International Conference on Network and Parallel Computing",
-        "zh": "网络与并行计算国际会议"
+        "en": "IFIP International Conference on Network and Parallel Computing (NPC)",
+        "zh": "网络与并行计算国际会议（NPC）"
       },
       "role": {
         "en": "Program Committee Member",
@@ -299,8 +299,8 @@
       "group": "journal_reviewer",
       "year": 2026,
       "organization": {
-        "en": "IEEE Transactions on Dependable and Secure Computing",
-        "zh": "IEEE Transactions on Dependable and Secure Computing"
+        "en": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+        "zh": "IEEE Transactions on Dependable and Secure Computing（TDSC）"
       },
       "role": {
         "en": "Journal Reviewer",
@@ -311,8 +311,8 @@
       "group": "program_committee",
       "year": "2026, 2024",
       "organization": {
-        "en": "CCF National Annual Conference on High Performance Computing",
-        "zh": "中国计算机学会全国高性能计算学术大会"
+        "en": "CCF National Annual Conference on High Performance Computing (HPC China)",
+        "zh": "中国计算机学会全国高性能计算学术大会（HPC China）"
       },
       "role": {
         "en": "Program Committee Member",
@@ -323,8 +323,8 @@
       "group": "journal_reviewer",
       "year": 2025,
       "organization": {
-        "en": "IEEE Transactions on Information Forensics and Security",
-        "zh": "IEEE Transactions on Information Forensics and Security"
+        "en": "IEEE Transactions on Information Forensics and Security (TIFS)",
+        "zh": "IEEE Transactions on Information Forensics and Security（TIFS）"
       },
       "role": {
         "en": "Journal Reviewer",
